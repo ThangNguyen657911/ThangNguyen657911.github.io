@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Xử lý Exception trong Java | Personal Programming Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog cá nhân chia sẻ kiến thức Java, JavaScript và Lập trình mạng">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="logo">Personal Programming Blog</div>
+    <nav class="nav">
+      
+        <a href="/">Home</a>
+      
+        <a href="/blog/">Blog</a>
+      
+        <a href="/about/">About</a>
+      
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  
+<article>
+  <h1>Xử lý Exception trong Java</h1>
+  <p><small>03/01/2025</small></p>
+  <ol>
+<li>Exception là gì? (Hierarchy trong Java)
+Exception là một sự kiện làm gián đoạn luồng thực thi bình thường của chương trình. Trong Java, tất cả các ngoại lệ đều là đối tượng (Object) và bắt nguồn từ lớp cao nhất là Throwable.</li>
+</ol>
+<p>Error: Những lỗi nghiêm trọng hệ thống (như OutOfMemoryError) mà lập trình viên thường không thể xử lý được.</p>
+<p>Exception: Những tình huống mà chúng ta có thể dự đoán và xử lý:</p>
+<p>Checked Exception: Lỗi xảy ra tại thời điểm Compile-time (ví dụ: IOException). Java bắt buộc bạn phải xử lý nó thì mới cho chạy code.</p>
+<p>Unchecked Exception (Runtime): Lỗi xảy ra khi chương trình đang chạy (ví dụ: NullPointerException, ArrayIndexOutOfBoundsException). Thường do lỗi logic của người viết code.</p>
+<ol start="2">
+<li>&ldquo;Bộ khung&rdquo; 5 từ khóa quyền lực
+Để xử lý Exception, Java cung cấp cho bạn 5 từ khóa cơ bản: try, catch, finally, throw, và throws.</li>
+</ol>
+<p>Try - Catch: Lưới đỡ an toàn
+Bạn đặt những dòng code &ldquo;nguy hiểm&rdquo; vào trong khối try. Nếu có chuyện gì xảy ra, khối catch sẽ tóm lấy lỗi đó.</p>
+<p>Finally: Dọn dẹp chiến trường
+Dù có lỗi hay không, khối finally luôn luôn được thực thi. Đây là nơi lý tưởng để đóng kết nối Database hoặc đóng File.</p>
+<p>Throw &amp; Throws: &ldquo;Đùn đẩy&rdquo; trách nhiệm
+throw: Dùng để chủ động tung ra một ngoại lệ (ví dụ: tuổi âm thì không cho đăng ký).</p>
+<p>throws: Khai báo ở tên hàm để cảnh báo người dùng hàm này: &ldquo;Cẩn thận nhé, hàm này có thể gây ra lỗi đấy!&rdquo;.</p>
+
+</article>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    © 2025 • Built with Hugo
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,7 +1,8 @@
-baseURL = "https://<github-ThangNguyen657911>.github.io/"
+baseURL = "https://<ThangNguyen657911>.github.io/"
 languageCode = "vi-vn"
 title = "Personal Programming Blog"
 theme = "minimalist"
+publishDir = "docs"
 [pagination]
   pagerSize = 6
 
