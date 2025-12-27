@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM và thao tác HTML bằng JavaScript | Personal Programming Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog cá nhân chia sẻ kiến thức Java, JavaScript và Lập trình mạng">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="logo">Personal Programming Blog</div>
+    <nav class="nav">
+      
+        <a href="/">Home</a>
+      
+        <a href="/blog/">Blog</a>
+      
+        <a href="/about/">About</a>
+      
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  
+<article>
+  <h1>DOM và thao tác HTML bằng JavaScript</h1>
+  <p><small>06/01/2025</small></p>
+  <p>🌳 DOM là gì? (Document Object Model)
+Hãy tưởng tượng trang HTML của bạn là một cái cây. Mỗi thẻ HTML (<div>, <h1>, <p>) là một &ldquo;nhánh&rdquo; hoặc &ldquo;chiếc lá&rdquo;. Trong lập trình, chúng ta gọi cái cây này là DOM Tree.</p>
+<p>Khi trình duyệt tải trang web, nó biến tất cả các thẻ HTML thành các Object (đối tượng) mà JavaScript có thể hiểu và chỉnh sửa được.</p>
+<p>🛠 Thao tác HTML bằng JavaScript: 4 Bước &ldquo;Thần thánh&rdquo;
+Để thay đổi bất cứ thứ gì trên trang web, bạn cần đi theo quy trình: Tìm -&gt; Sửa -&gt; Đổi -&gt; Lắng nghe.</p>
+<ol>
+<li>Tìm kiếm (Selecting Elements)
+Trước khi muốn &ldquo;phẫu thuật&rdquo; một phần tử, bạn phải tìm thấy nó đã.</li>
+</ol>
+<p>document.getElementById(&lsquo;id&rsquo;): Tìm nhanh bằng ID (duy nhất).</p>
+<p>document.querySelector(&rsquo;.class&rsquo;): Tìm bằng CSS Selector (cực kỳ linh hoạt và mạnh mẽ).</p>
+<ol start="2">
+<li>Thay đổi nội dung (Changing Content)
+Sau khi đã &ldquo;tóm&rdquo; được phần tử, bạn có thể đổi nội dung của nó ngay lập tức:</li>
+</ol>
+<p>.innerText: Thay đổi văn bản thuần túy.</p>
+<p>.innerHTML: Chèn hẳn một đoạn mã HTML mới vào bên trong.</p>
+<ol start="3">
+<li>Thay đổi diện mạo (Changing CSS)
+JavaScript có thể can thiệp trực tiếp vào style của phần tử:</li>
+</ol>
+<p>const box = document.querySelector(&rsquo;.box&rsquo;);</p>
+<p>box.style.backgroundColor = &lsquo;blue&rsquo;;</p>
+<p>box.style.borderRadius = &lsquo;10px&rsquo;;</p>
+<ol start="4">
+<li>Lắng nghe sự kiện (Event Listeners)
+Đây là lúc ma thuật thực sự xảy ra. Bạn bắt trình duyệt phải &ldquo;chờ&rdquo; người dùng làm gì đó rồi mới hành động.</li>
+</ol>
+<p>Click: Khi người dùng bấm nút.</p>
+<p>Submit: Khi gửi form.</p>
+<p>Keydown: Khi nhấn một phím trên bàn phím.</p>
+
+</article>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    © 2025 • Built with Hugo
+  </div>
+</footer>
+
+</body>
+</html>

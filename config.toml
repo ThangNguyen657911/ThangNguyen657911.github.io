@@ -1,0 +1,36 @@
+baseURL = "https://<github-ThangNguyen657911>.github.io/"
+languageCode = "vi-vn"
+title = "Personal Programming Blog"
+theme = "minimalist"
+[pagination]
+  pagerSize = 6
+
+
+[params]
+ avatar = "images/avatar.jpg"
+  author = "Your Name"
+  description = "Blog cá nhân chia sẻ kiến thức Java, JavaScript và Lập trình mạng"
+  [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+
+    [[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
+
+
+ 

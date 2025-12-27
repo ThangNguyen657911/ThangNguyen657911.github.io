@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Biến, hàm và scope trong JavaScript | Personal Programming Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog cá nhân chia sẻ kiến thức Java, JavaScript và Lập trình mạng">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="logo">Personal Programming Blog</div>
+    <nav class="nav">
+      
+        <a href="/">Home</a>
+      
+        <a href="/blog/">Blog</a>
+      
+        <a href="/about/">About</a>
+      
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  
+<article>
+  <h1>Biến, hàm và scope trong JavaScript</h1>
+  <p><small>05/01/2025</small></p>
+  <ol>
+<li>Biến (Variables): Những chiếc hộp đựng dữ liệu
+Trong JS hiện đại (ES6+), chúng ta có 3 cách để khai báo &ldquo;chiếc hộp&rdquo; của mình:</li>
+</ol>
+<p>let: Dùng cho những giá trị có thể thay đổi (ví dụ: điểm số, tuổi tác).</p>
+<p>const: Dùng cho những giá trị hằng số, không được phép gán lại (ví dụ: số Pi, ngày sinh). Mẹo từ blogger: Hãy luôn dùng const mặc định, chỉ đổi sang let khi bạn chắc chắn giá trị đó cần thay đổi.</p>
+<p>var: &ldquo;Cựu binh&rdquo; từ thời cũ. Hiện nay rất ít dùng vì nó có nhiều cơ chế gây lỗi khó chịu (như hoisting).</p>
+<ol start="2">
+<li>Hàm (Functions): Cỗ máy thực thi công việc
+Hàm là một đoạn mã được đóng gói để tái sử dụng nhiều lần. Thay vì viết đi viết lại 10 dòng code, bạn chỉ cần gọi tên hàm.</li>
+</ol>
+<p>Có 2 cách khai báo phổ biến:
+Function Declaration (Truyền thống):</p>
+<p>function chaoHoi(ten) {</p>
+<pre><code>return `Xin chào, ${ten}!`;
+</code></pre>
+<p>}</p>
+<p>Arrow Function (Hiện đại &amp; Gọn nhẹ):</p>
+<p>const chaoHoi = (ten) =&gt; <code>Xin chào, ${ten}!</code>;</p>
+<ol start="3">
+<li>Scope (Phạm vi): &ldquo;Vùng phủ sóng&rdquo; của biến
+Đây là phần khiến nhiều &ldquo;newbie&rdquo; đau đầu nhất. Scope quyết định nơi nào bạn có thể truy cập vào một biến.</li>
+</ol>
+<p>🌎 Global Scope (Phạm vi toàn cầu)
+Biến khai báo ngoài cùng của file. Mọi hàm, mọi dòng code đều nhìn thấy và dùng được nó.</p>
+<p>Nguy hiểm: Nếu ai cũng có thể sửa, biến toàn cầu dễ bị &ldquo;hỏng&rdquo; lúc nào không hay.</p>
+<p>🏠 Local / Function Scope (Phạm vi hàm)
+Biến khai báo bên trong một hàm thì chỉ hàm đó mới dùng được. Ra ngoài cửa hàm là biến đó &ldquo;biến mất&rdquo;.</p>
+<p>📦 Block Scope (Phạm vi khối)
+Áp dụng cho let và const. Biến nằm trong cặp ngoặc nhọn {&hellip;} (như của if hoặc for) thì chỉ sống trong đó thôi.</p>
+
+</article>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    © 2025 • Built with Hugo
+  </div>
+</footer>
+
+</body>
+</html>

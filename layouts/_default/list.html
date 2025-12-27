@@ -1,0 +1,17 @@
+{{ define "main" }}
+<section class="blog-list container">
+  <h1 class="page-title">{{ .Title }}</h1>
+
+  {{ range .Pages }}
+    <article class="blog-card">
+      <a href="{{ .RelPermalink }}" class="blog-link">
+        <h2 class="blog-title">{{ .Title }}</h2>
+        <p class="blog-date">{{ .Date.Format "02/01/2006" }}</p>
+        {{ with .Params.excerpt }}
+          <p class="blog-excerpt">{{ . }}</p>
+        {{ end }}
+      </a>
+    </article>
+  {{ end }}
+</section>
+{{ end }}

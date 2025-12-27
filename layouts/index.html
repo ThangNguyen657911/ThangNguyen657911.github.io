@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+{{ with .Site.Params.avatar }}
+  <div class="avatar-container">
+    <img src="{{ . }}" alt="Ảnh đại diện" class="avatar-img">
+  </div>
+{{ end }}
+
+<section class="hero">
+  <h1>Xin chào, mình là Nguyễn Đức Thắng</h1>
+  <h2>Junior Developer & Networking Student</h2>
+
+  <p class="hero-desc">
+    Blog cá nhân ghi lại quá trình học tập và chia sẻ kiến thức về
+    <strong>Java</strong>, <strong>JavaScript</strong> và <strong>Lập trình mạng</strong>.
+  </p>
+
+  <blockquote>
+    “Work hard in silence, let success make noise.”
+  </blockquote>
+</section>
+
+<section class="posts">
+  <h3>Bài viết gần đây</h3>
+  <ul>
+    {{ range first 5 (where .Site.RegularPages "Section" "blog") }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <span>{{ .Date.Format "02/01/2006" }}</span>
+      </li>
+    {{ end }}
+  </ul>
+
+  <a class="view-all" href="/blog/">Xem tất cả bài viết →</a>
+</section>
+
+{{ end }}
