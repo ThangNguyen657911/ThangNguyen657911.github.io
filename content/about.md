@@ -28,26 +28,7 @@ date: 2025-01-01
 
 <h2>🎓 Chứng chỉ đạt được</h2>
 
-<div class="cert-item">
-  <img 
-    src="/images/certificates/cisco-networking-basics.png" 
-    alt="Cisco Networking Basics Certificate"
-    class="cert-img"
-  >
 
-  <p>
-    🏅 <strong>Cisco Networking Basics</strong><br>
-    <small>Kiến thức nền tảng mạng máy tính: OSI, TCP/IP, LAN, WAN</small>
-  </p>
-
-  <a 
-    href="https://www.credly.com/badges/af27cbe5-d59f-4b8c-8426-847a14ad78a7" 
-    target="_blank"
-    class="cert-link"
-  >
-    👉 Xem chứng chỉ trên Cisco Networking Academy
-  </a>
-</div>
 ---
 
 ## Triết lý học tập
