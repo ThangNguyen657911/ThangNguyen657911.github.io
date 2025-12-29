@@ -214,6 +214,11 @@ blockquote {
   flex-shrink: 0;
   text-align: center;
 }
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
 
 .avatar-img {
   width: 220px;
