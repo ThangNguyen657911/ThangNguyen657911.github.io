@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Personal Programming Blog</title>
-    <link>https://&lt;ThangNguyen657911&gt;.github.io/blog/</link>
+    <link>https://ThangNguyen657911.github.io/blog/</link>
     <description>Recent content in Blogs on Personal Programming Blog</description>
     <generator>Hugo</generator>
     <language>vi-vn</language>
     <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://<ThangNguyen657911>.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ThangNguyen657911.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tổng kết quá trình học Java &amp; JavaScript</title>
-      <link>https://&lt;ThangNguyen657911&gt;.github.io/blog/tong-ket-java-js/</link>
+      <link>https://ThangNguyen657911.github.io/blog/tong-ket-java-js/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://&lt;ThangNguyen657911&gt;.github.io/blog/tong-ket-java-js/</guid>
+      <guid>https://ThangNguyen657911.github.io/blog/tong-ket-java-js/</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;Java: Xây dựng nền móng vững chãi (The Backbone)&#xA;Học Java giống như việc bạn học cách xây một tòa nhà chọc trời. Mọi thứ phải tuân thủ quy tắc, bản vẽ và tiêu chuẩn khắt khe.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Tư duy hướng đối tượng (OOP): Java buộc bạn phải hiểu sâu về Class, Object, Inheritance, Polymorphism. Đây là nền tảng giúp bạn quản lý các dự án phức tạp.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Tính kỷ luật (Strongly Typed): Bạn học được cách quản lý kiểu dữ liệu chặt chẽ. Lỗi được phát hiện ngay khi biên dịch (Compile-time), giúp bạn rèn luyện tính cẩn thận.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ứng dụng JavaScript trong lập trình Web</title>
-      <link>https://&lt;ThangNguyen657911&gt;.github.io/blog/js-ung-dung-web/</link>
+      <link>https://ThangNguyen657911.github.io/blog/js-ung-dung-web/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://&lt;ThangNguyen657911&gt;.github.io/blog/js-ung-dung-web/</guid>
+      <guid>https://ThangNguyen657911.github.io/blog/js-ung-dung-web/</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;Phía Người Dùng (Frontend): Phép màu của sự tương tác&#xA;Đây là nơi JavaScript tỏa sáng rực rỡ nhất. Nó biến các trang HTML/CSS &amp;ldquo;chết&amp;rdquo; thành những trải nghiệm sống động:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Tương tác thời gian thực: Nhấn nút &amp;ldquo;Like&amp;rdquo;, gửi comment mà không cần load lại toàn bộ trang (nhờ AJAX và Fetch API).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Hiệu ứng thị giác: Các thanh menu trượt, hình ảnh carousel, hiệu ứng cuộn trang (parallax) hay các hoạt ảnh phức tạp.&lt;/p&gt;</description>
     </item>
     <item>
       <title>So sánh Java và JavaScript</title>
-      <link>https://&lt;ThangNguyen657911&gt;.github.io/blog/so-sanh-java-js/</link>
+      <link>https://ThangNguyen657911.github.io/blog/so-sanh-java-js/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://&lt;ThangNguyen657911&gt;.github.io/blog/so-sanh-java-js/</guid>
+      <guid>https://ThangNguyen657911.github.io/blog/so-sanh-java-js/</guid>
       <description>&lt;p&gt;⚖️ Cân não: Java vs. JavaScript&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Ngôn ngữ Java (Lão tướng uy nghi)&#xA;Ưu điểm:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Hiệu suất và Độ ổn định: Nhờ việc biên dịch sang Bytecode và tối ưu hóa bởi JVM, Java chạy cực nhanh và ổn định trong các hệ thống xử lý dữ liệu lớn.&lt;/p&gt;&#xA;&lt;p&gt;Bảo mật tối đa: Cấu trúc chặt chẽ giúp hạn chế các lỗ hổng bảo mật phổ biến, rất phù hợp cho ngành tài chính.&lt;/p&gt;</description>
     </item>
     <item>
       <title>DOM và thao tác HTML bằng JavaScript</title>
-      <link>https://&lt;ThangNguyen657911&gt;.github.io/blog/js-dom/</link>
+      <link>https://ThangNguyen657911.github.io/blog/js-dom/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://&lt;ThangNguyen657911&gt;.github.io/blog/js-dom/</guid>
+      <guid>https://ThangNguyen657911.github.io/blog/js-dom/</guid>
       <description>&lt;p&gt;🌳 DOM là gì? (Document Object Model)&#xA;Hãy tưởng tượng trang HTML của bạn là một cái cây. Mỗi thẻ HTML (&lt;div&gt;, &lt;h1&gt;, &lt;p&gt;) là một &amp;ldquo;nhánh&amp;rdquo; hoặc &amp;ldquo;chiếc lá&amp;rdquo;. Trong lập trình, chúng ta gọi cái cây này là DOM Tree.&lt;/p&gt;&#xA;&lt;p&gt;Khi trình duyệt tải trang web, nó biến tất cả các thẻ HTML thành các Object (đối tượng) mà JavaScript có thể hiểu và chỉnh sửa được.&lt;/p&gt;&#xA;&lt;p&gt;🛠 Thao tác HTML bằng JavaScript: 4 Bước &amp;ldquo;Thần thánh&amp;rdquo;&#xA;Để thay đổi bất cứ thứ gì trên trang web, bạn cần đi theo quy trình: Tìm -&amp;gt; Sửa -&amp;gt; Đổi -&amp;gt; Lắng nghe.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Biến, hàm và scope trong JavaScript</title>
-      <link>https://&lt;ThangNguyen657911&gt;.github.io/blog/js-bien-ham-scope/</link>
+      <link>https://ThangNguyen657911.github.io/blog/js-bien-ham-scope/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://&lt;ThangNguyen657911&gt;.github.io/blog/js-bien-ham-scope/</guid>
+      <guid>https://ThangNguyen657911.github.io/blog/js-bien-ham-scope/</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;Biến (Variables): Những chiếc hộp đựng dữ liệu&#xA;Trong JS hiện đại (ES6+), chúng ta có 3 cách để khai báo &amp;ldquo;chiếc hộp&amp;rdquo; của mình:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;let: Dùng cho những giá trị có thể thay đổi (ví dụ: điểm số, tuổi tác).&lt;/p&gt;&#xA;&lt;p&gt;const: Dùng cho những giá trị hằng số, không được phép gán lại (ví dụ: số Pi, ngày sinh). Mẹo từ blogger: Hãy luôn dùng const mặc định, chỉ đổi sang let khi bạn chắc chắn giá trị đó cần thay đổi.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Giới thiệu JavaScript cơ bản</title>
-      <link>https://&lt;ThangNguyen657911&gt;.github.io/blog/js-gioi-thieu/</link>
+      <link>https://ThangNguyen657911.github.io/blog/js-gioi-thieu/</link>
       <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://&lt;ThangNguyen657911&gt;.github.io/blog/js-gioi-thieu/</guid>
+      <guid>https://ThangNguyen657911.github.io/blog/js-gioi-thieu/</guid>
       <description>&lt;p&gt;🚀 JavaScript là gì?&#xA;JavaScript là ngôn ngữ lập trình phổ biến nhất thế giới dành cho phát triển Web. Ban đầu, nó được tạo ra chỉ để làm những việc nhỏ nhặt như tạo hiệu ứng bông tuyết rơi hay kiểm tra form. Nhưng ngày nay, JS đã &amp;ldquo;tiến hóa&amp;rdquo; thành một gã khổng lồ có mặt ở khắp mọi nơi: từ trình duyệt, máy chủ (Node.js) cho đến cả trí tuệ nhân tạo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Xử lý Exception trong Java</title>
-      <link>https://&lt;ThangNguyen657911&gt;.github.io/blog/java-exception/</link>
+      <link>https://ThangNguyen657911.github.io/blog/java-exception/</link>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://&lt;ThangNguyen657911&gt;.github.io/blog/java-exception/</guid>
+      <guid>https://ThangNguyen657911.github.io/blog/java-exception/</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;Exception là gì? (Hierarchy trong Java)&#xA;Exception là một sự kiện làm gián đoạn luồng thực thi bình thường của chương trình. Trong Java, tất cả các ngoại lệ đều là đối tượng (Object) và bắt nguồn từ lớp cao nhất là Throwable.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Error: Những lỗi nghiêm trọng hệ thống (như OutOfMemoryError) mà lập trình viên thường không thể xử lý được.&lt;/p&gt;&#xA;&lt;p&gt;Exception: Những tình huống mà chúng ta có thể dự đoán và xử lý:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lập trình hướng đối tượng trong Java</title>
-      <link>https://&lt;ThangNguyen657911&gt;.github.io/blog/java-oop/</link>
+      <link>https://ThangNguyen657911.github.io/blog/java-oop/</link>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://&lt;ThangNguyen657911&gt;.github.io/blog/java-oop/</guid>
-      <description>&lt;p align=&#34;center&#34;&gt;&#xD;&#xA;  &lt;img src=&#34;https://<ThangNguyen657911>.github.io/images/oop-toybox.png&#34; alt=&#34;OOP lập trình hướng đối tượng&#34; width=&#34;500&#34;&gt;&#xD;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;p align=&#34;center&#34;&gt;&lt;em&gt;OOP lập trình hướng đối tượng&lt;/em&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;🏛️ 4 Trụ cột của OOP: Những &amp;ldquo;quyền năng&amp;rdquo; cốt lõi&#xA;Để một ngôn ngữ được coi là hướng đối tượng thực thụ như Java, nó phải tuân thủ 4 nguyên lý vàng:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Tính Đóng gói (Encapsulation)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Lợi ích: Bảo vệ dữ liệu khỏi việc bị thay đổi tùy tiện từ bên ngoài.&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Tính Kế thừa (Inheritance)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Lợi ích: Tái sử dụng mã nguồn, tiết kiệm thời gian và công sức.&lt;/p&gt;</description>
+      <guid>https://ThangNguyen657911.github.io/blog/java-oop/</guid>
+      <description>&lt;p align=&#34;center&#34;&gt;&#xD;&#xA;  &lt;img src=&#34;https://ThangNguyen657911.github.io/images/oop-toybox.png&#34; alt=&#34;OOP lập trình hướng đối tượng&#34; width=&#34;500&#34;&gt;&#xD;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;p align=&#34;center&#34;&gt;&lt;em&gt;OOP lập trình hướng đối tượng&lt;/em&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;🏛️ 4 Trụ cột của OOP: Những &amp;ldquo;quyền năng&amp;rdquo; cốt lõi&#xA;Để một ngôn ngữ được coi là hướng đối tượng thực thụ như Java, nó phải tuân thủ 4 nguyên lý vàng:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Tính Đóng gói (Encapsulation)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Lợi ích: Bảo vệ dữ liệu khỏi việc bị thay đổi tùy tiện từ bên ngoài.&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Tính Kế thừa (Inheritance)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Lợi ích: Tái sử dụng mã nguồn, tiết kiệm thời gian và công sức.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Giới thiệu ngôn ngữ lập trình Java</title>
-      <link>https://&lt;ThangNguyen657911&gt;.github.io/blog/java-gioi-thieu/</link>
+      <link>https://ThangNguyen657911.github.io/blog/java-gioi-thieu/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://&lt;ThangNguyen657911&gt;.github.io/blog/java-gioi-thieu/</guid>
+      <guid>https://ThangNguyen657911.github.io/blog/java-gioi-thieu/</guid>
       <description>&lt;p&gt;Nếu coi thế giới lập trình là một vương quốc, thì Java chính là vị &amp;ldquo;lão tướng&amp;rdquo; uy nghi. Ra đời từ năm 1995 bởi James Gosling tại Sun Microsystems (hiện thuộc Oracle), Java không chỉ đơn thuần là một ngôn ngữ; nó là một hệ sinh thái, một triết lý vận hành đã thay đổi cách chúng ta xây dựng phần mềm.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Triết lý cốt lõi: Write Once, Run Anywhere (WORA)&#xA;Điểm khiến Java trở nên khác biệt ngay từ khi ra mắt chính là khả năng độc lập nền tảng. Nhờ vào JVM (Java Virtual Machine), mã nguồn Java không chạy trực tiếp trên phần cứng mà chạy trên một máy ảo.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Compiler: Chuyển mã .java thành Bytecode (.class).&lt;/p&gt;</description>
     </item>
   </channel>

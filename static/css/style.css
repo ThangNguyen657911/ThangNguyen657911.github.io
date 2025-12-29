@@ -1,3 +1,6 @@
+/* ======================================================
+   GLOBAL
+====================================================== */
 * {
   box-sizing: border-box;
 }
@@ -14,10 +17,16 @@ body {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 16px;
 }
 
-/* Header */
+a {
+  color: inherit;
+}
+
+/* ======================================================
+   HEADER
+====================================================== */
 .site-header {
   border-bottom: 1px solid #eee;
   padding: 20px 0;
@@ -31,25 +40,29 @@ body {
 
 .logo {
   font-weight: 600;
+  font-size: 1.2rem;
 }
 
 .nav a {
-  margin-left: 20px;
+  margin-left: 24px;
   text-decoration: none;
   color: #555;
+  font-weight: 500;
 }
 
 .nav a:hover {
   color: #000;
 }
 
-/* Hero */
+/* ======================================================
+   HERO
+====================================================== */
 .hero {
-  margin: 100px 0;
+  margin: 100px 0 80px;
 }
 
 .hero h1 {
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   margin-bottom: 10px;
 }
 
@@ -60,7 +73,7 @@ body {
 }
 
 .hero-desc {
-  margin-top: 20px;
+  margin-top: 24px;
   max-width: 600px;
 }
 
@@ -72,9 +85,15 @@ blockquote {
   padding-left: 16px;
 }
 
-/* Posts */
+/* ======================================================
+   POSTS (HOME)
+====================================================== */
+.posts {
+  margin-top: 80px;
+}
+
 .posts h3 {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .posts ul {
@@ -83,7 +102,7 @@ blockquote {
 }
 
 .posts li {
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .posts span {
@@ -93,100 +112,76 @@ blockquote {
 
 .view-all {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 24px;
   text-decoration: none;
   font-weight: 500;
 }
 
-/* Footer */
-.site-footer {
-  border-top: 1px solid #eee;
-  margin-top: 120px;
-  padding: 40px 0;
-  font-size: 0.9rem;
-  color: #777;
-}
-
-.avatar-container {
-  text-align: center;
-  margin-top: 20px;
-}
-
-
-
-.about-image {
-  text-align: center;
-  margin: 30px 0;
-}
-
-.avatar-img {
-  width: 250px;
-  border-radius: 100px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
-
-.about-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
-  margin-top: 40px;
-}
-
-.about-text {
-  flex: 1;
-  min-width: 300px;
-}
-
-.about-image {
-  flex-shrink: 0;
-  text-align: right;
-}
-
-.avatar-img {
-  width: 200px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
-
+/* ======================================================
+   BLOG LIST (UPGRADED)
+====================================================== */
 .blog-list {
-  padding: 60px 0;
+  padding: 80px 0;
 }
 
 .page-title {
-  font-size: 2.4rem;
-  margin-bottom: 40px;
+  font-size: 2.6rem;
   text-align: center;
-}
-
-.blog-card {
-  margin-bottom: 40px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
+  margin-bottom: 60px;
+  letter-spacing: -0.5px;
 }
 
 .blog-link {
   text-decoration: none;
   color: inherit;
   display: block;
-  transition: all 0.2s ease;
 }
 
-.blog-link:hover .blog-title {
-  color: #0077cc;
+.blog-card {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 16px;
+  background: #fafafa;
+  border: 1px solid #eee;
+  transition: all 0.25s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.blog-thumb {
+  flex-shrink: 0;
+  width: 160px;
+  height: 120px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #333;
+  font-size: 1rem;
+}
+
+.blog-content {
+  flex: 1;
 }
 
 .blog-title {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 600;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
+  line-height: 1.4;
 }
 
 .blog-date {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: #888;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .blog-excerpt {
@@ -195,3 +190,71 @@ blockquote {
   line-height: 1.6;
 }
 
+.blog-link:hover .blog-title {
+  color: #0077cc;
+}
+
+/* ======================================================
+   ABOUT
+====================================================== */
+.about-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 60px;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-image {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.avatar-img {
+  width: 220px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+/* ======================================================
+   FOOTER
+====================================================== */
+.site-footer {
+  border-top: 1px solid #eee;
+  margin-top: 120px;
+  padding: 40px 0;
+  font-size: 0.9rem;
+  color: #777;
+  text-align: center;
+}
+
+/* ======================================================
+   RESPONSIVE
+====================================================== */
+@media (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+
+  .hero {
+    margin: 60px 0;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .blog-card {
+    flex-direction: column;
+  }
+
+  .blog-thumb {
+    width: 100%;
+    height: 140px;
+  }
+}

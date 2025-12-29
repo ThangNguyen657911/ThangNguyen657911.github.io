@@ -5,13 +5,35 @@
   {{ range .Pages }}
     <article class="blog-card">
       <a href="{{ .RelPermalink }}" class="blog-link">
-        <h2 class="blog-title">{{ .Title }}</h2>
-        <p class="blog-date">{{ .Date.Format "02/01/2006" }}</p>
-        {{ with .Params.excerpt }}
-          <p class="blog-excerpt">{{ . }}</p>
+
+        <!-- Thumbnail (optional, không gây xung đột) -->
+        {{ with .Params.featuredImage }}
+          <div class="blog-thumb">
+            <img src="{{ . | relURL }}" alt="{{ $.Title }}" />
+          </div>
+        {{ else }}
+          <div class="blog-thumb">
+            {{ .Title | truncate 20 }}
+          </div>
         {{ end }}
+
+        <!-- Content -->
+        <div class="blog-content">
+          <h2 class="blog-title">{{ .Title }}</h2>
+          <p class="blog-date">{{ .Date.Format "02/01/2006" }}</p>
+
+          {{ with .Params.excerpt }}
+            <p class="blog-excerpt">{{ . }}</p>
+          {{ else }}
+            <p class="blog-excerpt">
+              {{ .Summary | plainify | truncate 160 }}
+            </p>
+          {{ end }}
+        </div>
+
       </a>
     </article>
   {{ end }}
+
 </section>
 {{ end }}

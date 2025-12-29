@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Personal Programming Blog</title>
-    <link>https://&lt;ThangNguyen657911&gt;.github.io/categories/</link>
+    <link>https://ThangNguyen657911.github.io/categories/</link>
     <description>Recent content in Categories on Personal Programming Blog</description>
     <generator>Hugo</generator>
     <language>vi-vn</language>
-    <atom:link href="https://<ThangNguyen657911>.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ThangNguyen657911.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

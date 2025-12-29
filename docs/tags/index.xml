@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Personal Programming Blog</title>
-    <link>https://&lt;ThangNguyen657911&gt;.github.io/tags/</link>
+    <link>https://ThangNguyen657911.github.io/tags/</link>
     <description>Recent content in Tags on Personal Programming Blog</description>
     <generator>Hugo</generator>
     <language>vi-vn</language>
-    <atom:link href="https://<ThangNguyen657911>.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ThangNguyen657911.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
