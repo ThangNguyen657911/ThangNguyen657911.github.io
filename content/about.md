@@ -27,7 +27,7 @@ date: 2025-01-01
 
 ## Triết lý học tập
 
-> *"Work hard in silence, let success make noise."*
+> *"Không cần giỏi ngay từ đầu, chỉ cần không bỏ cuộc."*
 
 Mình tin rằng việc học bền bỉ, làm dự án thực tế và chia sẻ kiến thức  
 là con đường tốt nhất để phát triển kỹ năng lâu dài.
@@ -37,7 +37,7 @@ là con đường tốt nhất để phát triển kỹ năng lâu dài.
 ## Liên hệ
 
 - 📧 Email: nguyenducthang500611@gmail.com  
-- 💻 GitHub: https://github.com/your-username  
+- 💻 GitHub: https://github.com/ThangNguyen657911  
 
 Cảm ơn bạn đã ghé thăm blog của mình 🙌
     
