@@ -23,10 +23,6 @@ date: 2025-01-01
   - Lập trình hướng hệ thống
   - Tối ưu hoá hiệu năng và kiến trúc
 
----
-<hr>
-
-<h2>🎓 Chứng chỉ đạt được</h2>
 
 
 ---
