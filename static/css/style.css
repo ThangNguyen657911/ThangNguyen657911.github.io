@@ -263,3 +263,34 @@ blockquote {
     height: 140px;
   }
 }
+
+/* Certificate section */
+.cert-item {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  max-width: 600px;
+}
+
+.cert-img {
+  width: 100%;
+  max-width: 420px;
+  display: block;
+  margin: 0 auto 16px;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.cert-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0077cc;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cert-link:hover {
+  text-decoration: underline;
+}
+
