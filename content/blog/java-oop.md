@@ -4,6 +4,11 @@ date: 2025-01-02
 category: "Java"
 description: "Các khái niệm OOP trong Java"
 ---
+<p align="center">
+  <img src="/images/oop-toybox.png" alt="OOP lập trình hướng đối tượng" width="500">
+</p>
+<p align="center"><em>OOP lập trình hướng đối tượng</em></p>
+
 
 🏛️ 4 Trụ cột của OOP: Những "quyền năng" cốt lõi
 Để một ngôn ngữ được coi là hướng đối tượng thực thụ như Java, nó phải tuân thủ 4 nguyên lý vàng:
